@@ -129,6 +129,16 @@ Claude Skills are customizable workflows that teach Claude how to perform specif
 ### Productivity & Organization
 
 - [File Organizer](./file-organizer/) - Intelligently organizes files and folders by understanding context, finding duplicates, and suggesting better organizational structures.
+- [Downloads Sweeper](./file-organization-skills/downloads-sweeper/) - Buckets downloads into sensible folders, archives installers, and leaves a clean inbox.
+- [Desktop Zero](./file-organization-skills/desktop-zero/) - Clears cluttered desktops into staged folders and routes items to their proper homes.
+- [Duplicate Finder](./file-organization-skills/duplicate-finder/) - Detects duplicate files with hashes and guides safe cleanup decisions.
+- [Naming Normalizer](./file-organization-skills/naming-normalizer/) - Renames messy files into consistent, searchable patterns with previews and logs.
+- [Project Archivist](./file-organization-skills/project-archivist/) - Archives inactive projects with README context and storage-friendly bundles.
+- [Media Librarian](./file-organization-skills/media-librarian/) - Sorts photos and videos by date, flags duplicates, and separates RAW or edited assets.
+- [Paperwork Filer](./file-organization-skills/paperwork-filer/) - Files receipts, bills, and statements into labeled year/month folders with consistent naming.
+- [Shared Drive Maintainer](./file-organization-skills/shared-drive-maintainer/) - Standardizes team drives using templates, staging, and transparent change logs.
+- [Backup Prep](./file-organization-skills/backup-prep/) - Cleans folders before backups, excluding noise and generating verification manifests.
+- [Folder Template Builder](./file-organization-skills/folder-template-builder/) - Creates reusable folder templates with README guidance and setup snippets.
 - [Invoice Organizer](./invoice-organizer/) - Automatically organizes invoices and receipts for tax preparation by reading files, extracting information, and renaming consistently.
 - [kaizen](https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/kaizen/skills/kaizen) - Applies continuous improvement methodology with multiple analytical approaches, based on Japanese Kaizen philosophy and Lean methodology.
 - [Raffle Winner Picker](./raffle-winner-picker/) - Randomly selects winners from lists, spreadsheets, or Google Sheets for giveaways and contests with cryptographically secure randomness.
