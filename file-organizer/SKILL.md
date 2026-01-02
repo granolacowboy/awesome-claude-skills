@@ -394,6 +394,50 @@ Help me separate my work files from personal files across my
 Documents folder.
 ```
 
+## Ten Ready-to-Use File Organization Skills
+
+Each skill includes a trigger prompt plus the actions Claude should take.
+
+1. **Fast Downloads Triage**
+   - Prompt: "Sort my Downloads by type and archive anything older than 90 days."
+   - Actions: Create `/Downloads/To-Review`, `/Downloads/Archive`; move installers and archives to `Archive`, documents to `Documents`, media to `Pictures`/`Music`, and stage unknowns in `To-Review`.
+
+2. **Work vs. Personal Split**
+   - Prompt: "Separate work and personal files in Documents."
+   - Actions: Create `Documents/Work` and `Documents/Personal`; classify by file paths, domains inside documents, and recurring client/project keywords; flag ambiguous files for review.
+
+3. **Active vs. Archive Projects**
+   - Prompt: "Archive inactive projects older than 6 months."
+   - Actions: Scan `Projects/`; move untouched folders to `Projects/Archive/YYYY/`; keep `Projects/Active` lean and list archived moves in a summary log.
+
+4. **Duplicate Detector**
+   - Prompt: "Find and resolve duplicates in Documents and Desktop."
+   - Actions: Hash files for exact duplicates, group by identical names and similar sizes, recommend which to keep based on recency/location, and request confirmation before deleting.
+
+5. **Consistent Naming Pass**
+   - Prompt: "Rename messy files with a YYYY-MM-DD description pattern."
+   - Actions: Propose new names, preview a mapping table, preserve extensions, and apply renames only after approval.
+
+6. **Media Librarian**
+   - Prompt: "Organize photos and videos by year/month."
+   - Actions: Create `Photos/YYYY/MM-Name/`; use EXIF capture dates when available, fall back to modified time, and keep untagged files in `Photos/Unsorted`.
+
+7. **Client/Project Buckets**
+   - Prompt: "Bucket files by client name across Desktop and Documents."
+   - Actions: Detect client keywords from filenames and document contents; create `Documents/Clients/<Client>/` with subfolders for `Contracts`, `Deliverables`, `Assets`, and `Archive`.
+
+8. **Large File Slim-Down**
+   - Prompt: "Surface the biggest space hogs and suggest cleanup."
+   - Actions: List top 50 largest files with paths, sizes, and modified dates; suggest compression, archiving, or deletion, and move approved items to `Archive` or `Trash`.
+
+9. **Version Tangle Cleanup**
+   - Prompt: "Consolidate 'final_v2' style versions."
+   - Actions: Identify versioned filenames, keep the most recent/highest version, move alternates to `Archive/versions/`, and offer diff suggestions for merging changes.
+
+10. **Shared Folder Hygiene**
+    - Prompt: "Clean and standardize a shared team folder."
+    - Actions: Enforce consistent naming, add `README.md` with guidelines, standardize `01-Active/02-Archive/03-Templates` structure, and generate a change report for the team.
+
 ## Pro Tips
 
 1. **Start Small**: Begin with one messy folder (like Downloads) to build trust
@@ -430,4 +474,3 @@ Documents folder.
 - Cleaning up before storage cleanup
 - Organizing shared team folders
 - Structuring new project directories
-
