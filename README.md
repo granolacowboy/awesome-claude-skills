@@ -128,11 +128,21 @@ Claude Skills are customizable workflows that teach Claude how to perform specif
 
 ### Productivity & Organization
 
+- [Archive Rotation Scheduler](./archive-rotation-scheduler/) - Automates retention rules by moving stale files into dated archives with scheduled jobs and audit logs.
+- [Desktop Reset Coach](./desktop-reset-coach/) - Clears cluttered Desktops into tidy buckets with shortcuts to active projects and a repeatable maintenance routine.
+- [Downloads Declutterer](./downloads-declutterer/) - Triages messy Downloads folders by type and recency, proposes a safe structure, and moves files with undo logs.
+- [Duplicate File Hunter](./duplicate-file-hunter/) - Finds exact and near-duplicate files with evidence, keep rules, and reversible actions.
 - [File Organizer](./file-organizer/) - Intelligently organizes files and folders by understanding context, finding duplicates, and suggesting better organizational structures.
 - [Invoice Organizer](./invoice-organizer/) - Automatically organizes invoices and receipts for tax preparation by reading files, extracting information, and renaming consistently.
+- [Naming Convention Enforcer](./naming-convention-enforcer/) - Audits and standardizes filenames with preview tables, rename scripts, and rollback logs.
 - [kaizen](https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/kaizen/skills/kaizen) - Applies continuous improvement methodology with multiple analytical approaches, based on Japanese Kaizen philosophy and Lean methodology.
+- [Photo Library Organizer](./photo-library-organizer/) - Sorts photos into year/month folders using EXIF data, de-duplicates safely, and preserves originals.
 - [Raffle Winner Picker](./raffle-winner-picker/) - Randomly selects winners from lists, spreadsheets, or Google Sheets for giveaways and contests with cryptographically secure randomness.
+- [Project Archive Architect](./project-archive-architect/) - Separates active work from historical projects with consistent naming, manifests, and archive scaffolding.
+- [Shared Drive Tidier](./shared-drive-tidier/) - Cleans shared drives with taxonomy proposals, dry-run move plans, and communication templates that avoid breaking links.
 - [ship-learn-next](https://github.com/michalparkola/tapestry-skills-for-claude-code/tree/main/ship-learn-next) - Skill to help iterate on what to build or learn next, based on feedback loops.
+- [Temporary File Sweeper](./temporary-file-sweeper/) - Reclaims space by safely cleaning caches, build artifacts, and temp files with dry-run defaults.
+- [Workspace Blueprinter](./workspace-blueprinter/) - Generates standardized workspace scaffolds with READMEs, scripts, and onboarding guidance.
 - [tapestry](https://github.com/michalparkola/tapestry-skills-for-claude-code/tree/main/tapestry) - Interlink and summarize related documents into knowledge networks.
 
 ### Collaboration & Project Management
